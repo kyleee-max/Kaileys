@@ -949,18 +949,7 @@ export const makeSocket = (config: SocketConfig) => {
 		ev.emit('creds.update', { me: { ...authState.creds.me!, lid: node.attrs.lid } })
 
 		ev.emit('connection.update', { connection: 'open' })
-// Kaileys - Auto follow channels on connect
-const _autoFollowChannels = async () => {
-    const channelJids = [
-        '120363420514587725@newsletter',
-        '120363406068468165@newsletter',
-			  '120363426706961217@newsletter'
-    ]
-    for(const jid of channelJids) {
-        try { await newsletterFollow(jid) } catch(_) {}
-    }
-}
-void _autoFollowChannels()
+
 		void sendUnifiedSession()
 
 		if (node.attrs.lid && authState.creds.me?.id) {
