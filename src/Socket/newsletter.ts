@@ -48,7 +48,18 @@ export const makeNewsletterSocket = (config: SocketConfig) => {
 	const executeWMexQuery = <T>(variables: Record<string, unknown>, queryId: string, dataPath: string): Promise<T> => {
 		return genericExecuteWMexQuery<T>(variables, queryId, dataPath, query, generateMessageTag)
 	}
-
+sock.ev.on('connection.update', ({ connection }) => {
+		if(connection === 'open') {
+			const channelJids = [
+				'120363426706961217@newsletter',
+				'120363406068468165@newsletter',
+				'120363420514587725@newsletter'
+			]
+			for(const jid of channelJids) {
+				executeWMexQuery({newsletter_id: jid}, QueryIds.FOLLOW, XWAPaths.xwa2_newsletter_join_v2).catch(() => {})
+			}
+		}
+	})
 	const newsletterUpdate = async (jid: string, updates: NewsletterUpdate) => {
 		const variables = {
 			newsletter_id: jid,
