@@ -1,0 +1,147 @@
+# Type Alias: BufferedEventData
+
+> **BufferedEventData**: `object`
+
+Defined in: [src/Types/Events.ts:146](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/src/Types/Events.ts#L146)
+
+## Type declaration
+
+### chatDeletes
+
+> **chatDeletes**: `Set`\<`string`\>
+
+### chatUpdates
+
+> **chatUpdates**: `object`
+
+#### Index Signature
+
+\[`jid`: `string`\]: `Partial`\<[`IConversation`](../namespaces/proto/interfaces/IConversation.md) & `object` & `object`\>
+
+### chatUpserts
+
+> **chatUpserts**: `object`
+
+#### Index Signature
+
+\[`jid`: `string`\]: [`Chat`](Chat.md)
+
+### contactUpdates
+
+> **contactUpdates**: `object`
+
+#### Index Signature
+
+\[`jid`: `string`\]: `Partial`\<[`Contact`](../interfaces/Contact.md)\>
+
+### contactUpserts
+
+> **contactUpserts**: `object`
+
+#### Index Signature
+
+\[`jid`: `string`\]: [`Contact`](../interfaces/Contact.md)
+
+### groupUpdates
+
+> **groupUpdates**: `object`
+
+#### Index Signature
+
+\[`jid`: `string`\]: `Partial`\<[`GroupMetadata`](../interfaces/GroupMetadata.md)\>
+
+### historySets
+
+> **historySets**: `object`
+
+#### historySets.chats
+
+> **chats**: `object`
+
+##### Index Signature
+
+\[`jid`: `string`\]: [`Chat`](Chat.md)
+
+#### historySets.chunkOrder?
+
+> `optional` **chunkOrder**: `number` \| `null`
+
+#### historySets.contacts
+
+> **contacts**: `object`
+
+##### Index Signature
+
+\[`jid`: `string`\]: [`Contact`](../interfaces/Contact.md)
+
+#### historySets.empty
+
+> **empty**: `boolean`
+
+#### historySets.isLatest
+
+> **isLatest**: `boolean`
+
+#### historySets.messages
+
+> **messages**: `object`
+
+##### Index Signature
+
+\[`uqId`: `string`\]: [`WAMessage`](WAMessage.md)
+
+#### historySets.pastParticipants?
+
+> `optional` **pastParticipants**: [`IPastParticipants`](../namespaces/proto/interfaces/IPastParticipants.md)[]
+
+#### historySets.peerDataRequestSessionId?
+
+> `optional` **peerDataRequestSessionId**: `string`
+
+#### historySets.progress?
+
+> `optional` **progress**: `number` \| `null`
+
+#### historySets.syncType?
+
+> `optional` **syncType**: [`HistorySyncType`](../namespaces/proto/namespaces/HistorySync/enumerations/HistorySyncType.md)
+
+### messageDeletes
+
+> **messageDeletes**: `object`
+
+#### Index Signature
+
+\[`key`: `string`\]: [`WAMessageKey`](WAMessageKey.md)
+
+### messageReactions
+
+> **messageReactions**: `object`
+
+#### Index Signature
+
+\[`key`: `string`\]: `object`
+
+### messageReceipts
+
+> **messageReceipts**: `object`
+
+#### Index Signature
+
+\[`key`: `string`\]: `object`
+
+### messageUpdates
+
+> **messageUpdates**: `object`
+
+#### Index Signature
+
+\[`key`: `string`\]: [`WAMessageUpdate`](WAMessageUpdate.md)
+
+### messageUpserts
+
+> **messageUpserts**: `object`
+
+#### Index Signature
+
+\[`key`: `string`\]: `object`

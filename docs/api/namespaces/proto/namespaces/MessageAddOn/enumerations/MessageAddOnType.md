@@ -1,0 +1,43 @@
+# Enumeration: MessageAddOnType
+
+Defined in: [WAProto/index.d.ts:9440](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9440)
+
+## Enumeration Members
+
+### EVENT\_RESPONSE
+
+> **EVENT\_RESPONSE**: `2`
+
+Defined in: [WAProto/index.d.ts:9443](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9443)
+
+***
+
+### PIN\_IN\_CHAT
+
+> **PIN\_IN\_CHAT**: `4`
+
+Defined in: [WAProto/index.d.ts:9445](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9445)
+
+***
+
+### POLL\_UPDATE
+
+> **POLL\_UPDATE**: `3`
+
+Defined in: [WAProto/index.d.ts:9444](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9444)
+
+***
+
+### REACTION
+
+> **REACTION**: `1`
+
+Defined in: [WAProto/index.d.ts:9442](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9442)
+
+***
+
+### UNDEFINED
+
+> **UNDEFINED**: `0`
+
+Defined in: [WAProto/index.d.ts:9441](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9441)

@@ -1,0 +1,203 @@
+# Class: MessageKey
+
+Defined in: [WAProto/index.d.ts:10965](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10965)
+
+## Implements
+
+- [`IMessageKey`](../interfaces/IMessageKey.md)
+
+## Constructors
+
+### new MessageKey()
+
+> **new MessageKey**(`p`?): [`MessageKey`](MessageKey.md)
+
+Defined in: [WAProto/index.d.ts:10966](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10966)
+
+#### Parameters
+
+##### p?
+
+[`IMessageKey`](../interfaces/IMessageKey.md)
+
+#### Returns
+
+[`MessageKey`](MessageKey.md)
+
+## Properties
+
+### cipherKey?
+
+> `optional` **cipherKey**: `null` \| `Uint8Array`\<`ArrayBufferLike`\>
+
+Defined in: [WAProto/index.d.ts:10968](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10968)
+
+#### Implementation of
+
+[`IMessageKey`](../interfaces/IMessageKey.md).[`cipherKey`](../interfaces/IMessageKey.md#cipherkey)
+
+***
+
+### index?
+
+> `optional` **index**: `null` \| `number`
+
+Defined in: [WAProto/index.d.ts:10967](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10967)
+
+#### Implementation of
+
+[`IMessageKey`](../interfaces/IMessageKey.md).[`index`](../interfaces/IMessageKey.md#index)
+
+***
+
+### iv?
+
+> `optional` **iv**: `null` \| `Uint8Array`\<`ArrayBufferLike`\>
+
+Defined in: [WAProto/index.d.ts:10970](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10970)
+
+#### Implementation of
+
+[`IMessageKey`](../interfaces/IMessageKey.md).[`iv`](../interfaces/IMessageKey.md#iv)
+
+***
+
+### macKey?
+
+> `optional` **macKey**: `null` \| `Uint8Array`\<`ArrayBufferLike`\>
+
+Defined in: [WAProto/index.d.ts:10969](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10969)
+
+#### Implementation of
+
+[`IMessageKey`](../interfaces/IMessageKey.md).[`macKey`](../interfaces/IMessageKey.md#mackey)
+
+## Methods
+
+### toJSON()
+
+> **toJSON**(): `object`
+
+Defined in: [WAProto/index.d.ts:10976](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10976)
+
+#### Returns
+
+`object`
+
+***
+
+### create()
+
+> `static` **create**(`properties`?): [`MessageKey`](MessageKey.md)
+
+Defined in: [WAProto/index.d.ts:10971](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10971)
+
+#### Parameters
+
+##### properties?
+
+[`IMessageKey`](../interfaces/IMessageKey.md)
+
+#### Returns
+
+[`MessageKey`](MessageKey.md)
+
+***
+
+### decode()
+
+> `static` **decode**(`r`, `l`?): [`MessageKey`](MessageKey.md)
+
+Defined in: [WAProto/index.d.ts:10973](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10973)
+
+#### Parameters
+
+##### r
+
+`Uint8Array`\<`ArrayBufferLike`\> | `Reader`
+
+##### l?
+
+`number`
+
+#### Returns
+
+[`MessageKey`](MessageKey.md)
+
+***
+
+### encode()
+
+> `static` **encode**(`m`, `w`?): `Writer`
+
+Defined in: [WAProto/index.d.ts:10972](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10972)
+
+#### Parameters
+
+##### m
+
+[`IMessageKey`](../interfaces/IMessageKey.md)
+
+##### w?
+
+`Writer`
+
+#### Returns
+
+`Writer`
+
+***
+
+### fromObject()
+
+> `static` **fromObject**(`d`): [`MessageKey`](MessageKey.md)
+
+Defined in: [WAProto/index.d.ts:10974](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10974)
+
+#### Parameters
+
+##### d
+
+#### Returns
+
+[`MessageKey`](MessageKey.md)
+
+***
+
+### getTypeUrl()
+
+> `static` **getTypeUrl**(`typeUrlPrefix`?): `string`
+
+Defined in: [WAProto/index.d.ts:10977](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10977)
+
+#### Parameters
+
+##### typeUrlPrefix?
+
+`string`
+
+#### Returns
+
+`string`
+
+***
+
+### toObject()
+
+> `static` **toObject**(`m`, `o`?): `object`
+
+Defined in: [WAProto/index.d.ts:10975](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L10975)
+
+#### Parameters
+
+##### m
+
+[`MessageKey`](MessageKey.md)
+
+##### o?
+
+`IConversionOptions`
+
+#### Returns
+
+`object`

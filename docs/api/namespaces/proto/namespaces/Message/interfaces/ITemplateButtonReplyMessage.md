@@ -1,0 +1,43 @@
+# Interface: ITemplateButtonReplyMessage
+
+Defined in: [WAProto/index.d.ts:9158](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9158)
+
+## Properties
+
+### contextInfo?
+
+> `optional` **contextInfo**: `null` \| [`IContextInfo`](../../../interfaces/IContextInfo.md)
+
+Defined in: [WAProto/index.d.ts:9161](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9161)
+
+***
+
+### selectedCarouselCardIndex?
+
+> `optional` **selectedCarouselCardIndex**: `null` \| `number`
+
+Defined in: [WAProto/index.d.ts:9163](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9163)
+
+***
+
+### selectedDisplayText?
+
+> `optional` **selectedDisplayText**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:9160](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9160)
+
+***
+
+### selectedId?
+
+> `optional` **selectedId**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:9159](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9159)
+
+***
+
+### selectedIndex?
+
+> `optional` **selectedIndex**: `null` \| `number`
+
+Defined in: [WAProto/index.d.ts:9162](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9162)

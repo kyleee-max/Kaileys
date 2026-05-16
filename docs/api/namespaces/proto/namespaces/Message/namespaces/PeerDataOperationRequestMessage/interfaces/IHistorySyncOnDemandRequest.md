@@ -1,0 +1,51 @@
+# Interface: IHistorySyncOnDemandRequest
+
+Defined in: [WAProto/index.d.ts:7844](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7844)
+
+## Properties
+
+### accountLid?
+
+> `optional` **accountLid**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:7850](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7850)
+
+***
+
+### chatJid?
+
+> `optional` **chatJid**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:7845](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7845)
+
+***
+
+### oldestMsgFromMe?
+
+> `optional` **oldestMsgFromMe**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:7847](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7847)
+
+***
+
+### oldestMsgId?
+
+> `optional` **oldestMsgId**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:7846](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7846)
+
+***
+
+### oldestMsgTimestampMs?
+
+> `optional` **oldestMsgTimestampMs**: `null` \| `number` \| `Long`
+
+Defined in: [WAProto/index.d.ts:7849](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7849)
+
+***
+
+### onDemandMsgCount?
+
+> `optional` **onDemandMsgCount**: `null` \| `number`
+
+Defined in: [WAProto/index.d.ts:7848](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7848)

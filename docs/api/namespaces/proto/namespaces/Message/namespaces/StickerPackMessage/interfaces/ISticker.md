@@ -1,0 +1,51 @@
+# Interface: ISticker
+
+Defined in: [WAProto/index.d.ts:9105](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9105)
+
+## Properties
+
+### accessibilityLabel?
+
+> `optional` **accessibilityLabel**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:9109](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9109)
+
+***
+
+### emojis?
+
+> `optional` **emojis**: `null` \| `string`[]
+
+Defined in: [WAProto/index.d.ts:9108](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9108)
+
+***
+
+### fileName?
+
+> `optional` **fileName**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:9106](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9106)
+
+***
+
+### isAnimated?
+
+> `optional` **isAnimated**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:9107](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9107)
+
+***
+
+### isLottie?
+
+> `optional` **isLottie**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:9110](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9110)
+
+***
+
+### mimetype?
+
+> `optional` **mimetype**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:9111](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9111)

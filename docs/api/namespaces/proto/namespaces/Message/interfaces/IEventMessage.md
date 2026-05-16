@@ -1,0 +1,99 @@
+# Interface: IEventMessage
+
+Defined in: [WAProto/index.d.ts:6151](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6151)
+
+## Properties
+
+### contextInfo?
+
+> `optional` **contextInfo**: `null` \| [`IContextInfo`](../../../interfaces/IContextInfo.md)
+
+Defined in: [WAProto/index.d.ts:6152](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6152)
+
+***
+
+### description?
+
+> `optional` **description**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:6155](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6155)
+
+***
+
+### endTime?
+
+> `optional` **endTime**: `null` \| `number` \| `Long`
+
+Defined in: [WAProto/index.d.ts:6159](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6159)
+
+***
+
+### extraGuestsAllowed?
+
+> `optional` **extraGuestsAllowed**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:6160](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6160)
+
+***
+
+### hasReminder?
+
+> `optional` **hasReminder**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:6162](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6162)
+
+***
+
+### isCanceled?
+
+> `optional` **isCanceled**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:6153](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6153)
+
+***
+
+### isScheduleCall?
+
+> `optional` **isScheduleCall**: `null` \| `boolean`
+
+Defined in: [WAProto/index.d.ts:6161](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6161)
+
+***
+
+### joinLink?
+
+> `optional` **joinLink**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:6157](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6157)
+
+***
+
+### location?
+
+> `optional` **location**: `null` \| [`ILocationMessage`](ILocationMessage.md)
+
+Defined in: [WAProto/index.d.ts:6156](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6156)
+
+***
+
+### name?
+
+> `optional` **name**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:6154](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6154)
+
+***
+
+### reminderOffsetSec?
+
+> `optional` **reminderOffsetSec**: `null` \| `number` \| `Long`
+
+Defined in: [WAProto/index.d.ts:6163](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6163)
+
+***
+
+### startTime?
+
+> `optional` **startTime**: `null` \| `number` \| `Long`
+
+Defined in: [WAProto/index.d.ts:6158](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L6158)

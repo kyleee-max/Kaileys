@@ -1,0 +1,19 @@
+# Enumeration: MessageAddonExpiryType
+
+Defined in: [WAProto/index.d.ts:9561](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9561)
+
+## Enumeration Members
+
+### DEPENDENT\_ON\_PARENT
+
+> **DEPENDENT\_ON\_PARENT**: `2`
+
+Defined in: [WAProto/index.d.ts:9563](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9563)
+
+***
+
+### STATIC
+
+> **STATIC**: `1`
+
+Defined in: [WAProto/index.d.ts:9562](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L9562)

@@ -1,0 +1,51 @@
+# Enumeration: SocialMediaPostType
+
+Defined in: [WAProto/index.d.ts:7124](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7124)
+
+## Enumeration Members
+
+### CAROUSEL
+
+> **CAROUSEL**: `5`
+
+Defined in: [WAProto/index.d.ts:7130](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7130)
+
+***
+
+### LIVE\_VIDEO
+
+> **LIVE\_VIDEO**: `2`
+
+Defined in: [WAProto/index.d.ts:7127](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7127)
+
+***
+
+### LONG\_VIDEO
+
+> **LONG\_VIDEO**: `3`
+
+Defined in: [WAProto/index.d.ts:7128](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7128)
+
+***
+
+### NONE
+
+> **NONE**: `0`
+
+Defined in: [WAProto/index.d.ts:7125](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7125)
+
+***
+
+### REEL
+
+> **REEL**: `1`
+
+Defined in: [WAProto/index.d.ts:7126](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7126)
+
+***
+
+### SINGLE\_IMAGE
+
+> **SINGLE\_IMAGE**: `4`
+
+Defined in: [WAProto/index.d.ts:7129](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L7129)

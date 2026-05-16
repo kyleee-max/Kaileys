@@ -1,0 +1,203 @@
+# Class: UrlTrackingMapElement
+
+Defined in: [WAProto/index.d.ts:13304](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13304)
+
+## Implements
+
+- [`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md)
+
+## Constructors
+
+### new UrlTrackingMapElement()
+
+> **new UrlTrackingMapElement**(`p`?): [`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+Defined in: [WAProto/index.d.ts:13305](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13305)
+
+#### Parameters
+
+##### p?
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md)
+
+#### Returns
+
+[`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+## Properties
+
+### cardIndex?
+
+> `optional` **cardIndex**: `null` \| `number`
+
+Defined in: [WAProto/index.d.ts:13309](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13309)
+
+#### Implementation of
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md).[`cardIndex`](../interfaces/IUrlTrackingMapElement.md#cardindex)
+
+***
+
+### consentedUsersUrl?
+
+> `optional` **consentedUsersUrl**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:13308](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13308)
+
+#### Implementation of
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md).[`consentedUsersUrl`](../interfaces/IUrlTrackingMapElement.md#consentedusersurl)
+
+***
+
+### originalUrl?
+
+> `optional` **originalUrl**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:13306](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13306)
+
+#### Implementation of
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md).[`originalUrl`](../interfaces/IUrlTrackingMapElement.md#originalurl)
+
+***
+
+### unconsentedUsersUrl?
+
+> `optional` **unconsentedUsersUrl**: `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:13307](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13307)
+
+#### Implementation of
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md).[`unconsentedUsersUrl`](../interfaces/IUrlTrackingMapElement.md#unconsentedusersurl)
+
+## Methods
+
+### toJSON()
+
+> **toJSON**(): `object`
+
+Defined in: [WAProto/index.d.ts:13315](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13315)
+
+#### Returns
+
+`object`
+
+***
+
+### create()
+
+> `static` **create**(`properties`?): [`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+Defined in: [WAProto/index.d.ts:13310](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13310)
+
+#### Parameters
+
+##### properties?
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md)
+
+#### Returns
+
+[`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+***
+
+### decode()
+
+> `static` **decode**(`r`, `l`?): [`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+Defined in: [WAProto/index.d.ts:13312](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13312)
+
+#### Parameters
+
+##### r
+
+`Uint8Array`\<`ArrayBufferLike`\> | `Reader`
+
+##### l?
+
+`number`
+
+#### Returns
+
+[`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+***
+
+### encode()
+
+> `static` **encode**(`m`, `w`?): `Writer`
+
+Defined in: [WAProto/index.d.ts:13311](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13311)
+
+#### Parameters
+
+##### m
+
+[`IUrlTrackingMapElement`](../interfaces/IUrlTrackingMapElement.md)
+
+##### w?
+
+`Writer`
+
+#### Returns
+
+`Writer`
+
+***
+
+### fromObject()
+
+> `static` **fromObject**(`d`): [`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+Defined in: [WAProto/index.d.ts:13313](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13313)
+
+#### Parameters
+
+##### d
+
+#### Returns
+
+[`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+***
+
+### getTypeUrl()
+
+> `static` **getTypeUrl**(`typeUrlPrefix`?): `string`
+
+Defined in: [WAProto/index.d.ts:13316](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13316)
+
+#### Parameters
+
+##### typeUrlPrefix?
+
+`string`
+
+#### Returns
+
+`string`
+
+***
+
+### toObject()
+
+> `static` **toObject**(`m`, `o`?): `object`
+
+Defined in: [WAProto/index.d.ts:13314](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L13314)
+
+#### Parameters
+
+##### m
+
+[`UrlTrackingMapElement`](UrlTrackingMapElement.md)
+
+##### o?
+
+`IConversionOptions`
+
+#### Returns
+
+`object`

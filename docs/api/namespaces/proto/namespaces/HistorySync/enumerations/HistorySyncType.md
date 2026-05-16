@@ -1,0 +1,59 @@
+# Enumeration: HistorySyncType
+
+Defined in: [WAProto/index.d.ts:4572](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4572)
+
+## Enumeration Members
+
+### FULL
+
+> **FULL**: `2`
+
+Defined in: [WAProto/index.d.ts:4575](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4575)
+
+***
+
+### INITIAL\_BOOTSTRAP
+
+> **INITIAL\_BOOTSTRAP**: `0`
+
+Defined in: [WAProto/index.d.ts:4573](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4573)
+
+***
+
+### INITIAL\_STATUS\_V3
+
+> **INITIAL\_STATUS\_V3**: `1`
+
+Defined in: [WAProto/index.d.ts:4574](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4574)
+
+***
+
+### NON\_BLOCKING\_DATA
+
+> **NON\_BLOCKING\_DATA**: `5`
+
+Defined in: [WAProto/index.d.ts:4578](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4578)
+
+***
+
+### ON\_DEMAND
+
+> **ON\_DEMAND**: `6`
+
+Defined in: [WAProto/index.d.ts:4579](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4579)
+
+***
+
+### PUSH\_NAME
+
+> **PUSH\_NAME**: `4`
+
+Defined in: [WAProto/index.d.ts:4577](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4577)
+
+***
+
+### RECENT
+
+> **RECENT**: `3`
+
+Defined in: [WAProto/index.d.ts:4576](https://github.com/WhiskeySockets/Baileys/blob/28ca087cf1cbe3c05a5b704d67b3e2270d647b74/WAProto/index.d.ts#L4576)
